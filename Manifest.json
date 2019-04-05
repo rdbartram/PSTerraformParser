@@ -9,11 +9,13 @@
     "tags": [
       "Powershell",
       "terraform",
-      "Plan Parser",
+      "plan",
+      "parser",
       "PSEdition_Core",
       "PSEdition_Desktop"
     ],
-    "CompatiblePSEditions": ["Core", "Desktop"]
+    "CompatiblePSEditions": ["Core", "Desktop"],
+    "PowerShellVersion": "5.1"
   },
   "StaticResources": ["Strings"]
 }
