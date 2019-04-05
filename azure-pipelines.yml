@@ -7,10 +7,9 @@ resources:
       endpoint: rdbartram
 
 jobs:
-  - template: Yaml Build Defintions/ModuleTest.yml@templates
+  - template: Yaml Build Defintions/ModuleTestIncPublish.yml@templates
     parameters:
       baseRepoId: rdbartram/PSTerraformPasrser
       baseBuildDefinitionId: 8
-      pwsh: false
       coverageThreshold: 0
       moduleName: PSTerraformPasrser
