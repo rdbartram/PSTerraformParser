@@ -1,0 +1,5 @@
+{
+  "powershell.codeFormatting.preset": "OTBS",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}

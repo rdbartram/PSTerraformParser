@@ -1,0 +1,12 @@
+{
+  "ModuleInfo": {
+    "Name": "PSTerraformParser",
+    "CompanyName": "DFTAI",
+    "Copyright": "DFTAI 2019",
+    "Author": "Ryan Bartram",
+    "Guid": "70f5c045-909e-4738-aa57-bc66ba31c975",
+    "Description": "Parsers the stdout from terrform plan and returns json",
+    "tags": ["Powershell", "terraform", "Plan Parser"]
+  },
+  "StaticResources": ["Strings"]
+}

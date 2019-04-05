@@ -1,0 +1,16 @@
+resources:
+  repositories:
+    - repository: templates
+      type: github
+      name: rdbartram/PSBuildRelease
+      ref: refs/heads/master
+      endpoint: rdbartram
+
+jobs:
+  - template: Yaml Build Defintions/ModuleTest.yml@templates
+    parameters:
+      baseRepoId: rdbartram/PSTerraformPasrser
+      baseBuildDefinitionId: 8
+      pwsh: false
+      coverageThreshold: 0
+      moduleName: PSTerraformPasrser

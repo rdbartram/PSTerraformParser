@@ -1,0 +1,20 @@
+{
+  "errors": [],
+  "changedResources": [
+    {
+      "action": "update",
+      "type": "aws_ecs_service",
+      "name": "sample_app",
+      "path": "aws_ecs_service.sample_app",
+      "changedAttributes": {
+        "task_definition": {
+          "new": {
+            "type": "unknown",
+            "value": "this is a test"
+          }
+        }
+      }
+    }
+  ],
+  "changedDataSources": []
+}
