@@ -6,7 +6,14 @@
     "Author": "Ryan Bartram",
     "Guid": "70f5c045-909e-4738-aa57-bc66ba31c975",
     "Description": "Parsers the stdout from terrform plan and returns json",
-    "tags": ["Powershell", "terraform", "Plan Parser"]
+    "tags": [
+      "Powershell",
+      "terraform",
+      "Plan Parser",
+      "PSEdition_Core",
+      "PSEdition_Desktop"
+    ],
+    "CompatiblePSEditions": ["Core", "Desktop"]
   },
   "StaticResources": ["Strings"]
 }

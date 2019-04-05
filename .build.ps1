@@ -32,7 +32,7 @@ Param (
 
 process {
     if ($MyInvocation.ScriptName -notlike '*Invoke-Build.ps1') {
-        $PSBoundParameters.Remove("ResolveDependency")
+        $PSBoundParameters.Remove("ResolveDependency") | Out-Null
         Invoke-Build $Tasks $MyInvocation.MyCommand.Path @PSBoundParameters
         return
     }
