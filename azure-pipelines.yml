@@ -13,3 +13,4 @@ jobs:
       baseBuildDefinitionId: 8
       coverageThreshold: 0
       moduleName: PSTerraformPasrser
+      agent: Hosted VS2017
