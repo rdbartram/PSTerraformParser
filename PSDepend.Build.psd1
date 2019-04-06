@@ -7,6 +7,7 @@
     pester          = 'latest'
     invokebuild     = 'latest'
     BuildHelpers    = 'latest'
+    Configuration   = 'latest'
 
     BuildFolder     = @{
         DependencyType = 'Command'
