@@ -9,7 +9,8 @@ resources:
 jobs:
   - template: Yaml Build Defintions/ModuleTestIncPublish.yml@templates
     parameters:
-      baseRepoId: rdbartram/PSTerraformPasrser
+      baseRepoId: rdbartram/PSTerraformParser
       baseBuildDefinitionId: 8
       coverageThreshold: 0
-      moduleName: PSTerraformPasrser
+      moduleName: PSTerraformParser
+      agent: Hosted VS2017
